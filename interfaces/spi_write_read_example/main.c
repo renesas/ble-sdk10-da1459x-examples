@@ -7,7 +7,7 @@
  * in the master role while LSM6DSL is used as an SPI slave. Button K1 is configured as a
  * Wake Up button.
  *
- * Copyright (C) 2020-2024 Renesas Electronics Corporation and/or its affiliates.
+ * Copyright (C) 2020-2025 Renesas Electronics Corporation and/or its affiliates.
  * All rights reserved. Confidential Information.
  *
  * This software ("Software") is supplied by Renesas Electronics Corporation and/or its

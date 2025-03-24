@@ -7,9 +7,9 @@
  *        It reads data from a serial port, sends data to client, and finally
  *        writes received data an output serial port.
  *
- * Copyright (C) 2023. Dialog Semiconductor, unpublished work. This computer
+ * Copyright (C) 2025. Renesas Electronics Corporation and/or its affiliates, unpublished work. This computer
  * program includes Confidential, Proprietary Information and is a Trade Secret of
- * Dialog Semiconductor.  All use, disclosure, and/or reproduction is prohibited
+ * Renesas Electronics Corporation and/or its affiliates.  All use, disclosure, and/or reproduction is prohibited
  * unless authorized in writing. All Rights Reserved.
  *
  ****************************************************************************************

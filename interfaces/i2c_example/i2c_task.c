@@ -4,7 +4,7 @@
  *
  * @brief I2C master tasks
  *
- * Copyright (C) 2020-2023 Renesas Electronics Corporation and/or its affiliates
+ * Copyright (C) 2020-2025 Renesas Electronics Corporation and/or its affiliates
  * The MIT License (MIT)
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy

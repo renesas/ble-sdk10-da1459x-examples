@@ -5,9 +5,9 @@
  *
  * @brief Configuration of devices connected to board
  *
- * Copyright (C) 2015-2022 Dialog Semiconductor.
+ * Copyright (C) 2015-2022 Renesas Electronics Corporation and/or its affiliates.
  * This computer program includes Confidential, Proprietary Information
- * of Dialog Semiconductor. All Rights Reserved.
+ * of Renesas Electronics Corporation and/or its affiliates. All Rights Reserved.
  *
  ****************************************************************************************
  */

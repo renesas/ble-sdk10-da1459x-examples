@@ -5,7 +5,7 @@
  *
  * @brief Glucose Service
  *
- * Copyright (C) 2015-2023 Renesas Electronics Corporation and/or its affiliates.
+ * Copyright (C) 2015-2025 Renesas Electronics Corporation and/or its affiliates.
  * All rights reserved. Confidential Information.
  *
  * This software ("Software") is supplied by Renesas Electronics Corporation and/or its
@@ -323,7 +323,7 @@ typedef void (*gls_racp_report_num_of_records_cb_t)(ble_service_t *svc, uint16_t
  *
  * This callback will be invoked by the service following a write request to RACP with opcode value
  * set to \sa GLS_RACP_COMMAND_REPORT_RECORDS. Application should provide the server with
- * the requested records via \sa gls_notify_record. Once all records are transfered application should
+ * the requested records via \sa gls_notify_record. Once all records are transferred application should
  * call \sa gls_indicate_report_records_status to indicate the status of request.
  *
  * \note This callback is mandatory for the application to register.

@@ -60,7 +60,7 @@ There are no known limitations for this application.
 ## License
 **************************************************************************************
 
- Copyright (c) 2024 Renesas Semiconductor. All rights reserved.
+ Copyright (c) 2025 Renesas Semiconductor. All rights reserved.
 
  This software ("Software") is owned by Renesas Semiconductor. By using this Software
  you agree that Renesas Semiconductor retains all intellectual property and proprietary

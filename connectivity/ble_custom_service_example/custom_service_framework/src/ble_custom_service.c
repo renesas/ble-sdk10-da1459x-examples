@@ -6,14 +6,14 @@
  *
  * @brief Bluetooth custom service framework
  *
- * Copyright (c) 2023 Dialog Semiconductor. All rights reserved.
+ * Copyright (c) 2025 Renesas Electronics Corporation and/or its affiliates. All rights reserved.
  *
- * This software ("Software") is owned by Dialog Semiconductor. By using this Software
- * you agree that Dialog Semiconductor retains all intellectual property and proprietary
+ * This software ("Software") is owned by Renesas Electronics Corporation and/or its affiliates. By using this Software
+ * you agree that Renesas Electronics Corporation and/or its affiliates retains all intellectual property and proprietary
  * rights in and to this Software and any use, reproduction, disclosure or distribution
  * of the Software without express written permission or a license agreement from Dialog
  * Semiconductor is strictly prohibited. This Software is solely for use on or in
- * conjunction with Dialog Semiconductor products.
+ * conjunction with Renesas Electronics Corporation and/or its affiliates products.
  *
  * EXCEPT AS OTHERWISE PROVIDED IN A LICENSE AGREEMENT BETWEEN THE PARTIES OR AS
  * REQUIRED BY LAW, THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,

@@ -5,7 +5,7 @@
  *
  * @brief Platform devices source file. This is the recommended place to define peripheral drivers.
  *
- * Copyright (C) 2015-2024 Renesas Electronics Corporation and/or its affiliates.
+ * Copyright (C) 2015-2025 Renesas Electronics Corporation and/or its affiliates.
  * All rights reserved. Confidential Information.
  *
  * This software ("Software") is supplied by Renesas Electronics Corporation and/or its

@@ -13,8 +13,8 @@ Upon pressing the K1 button, the SPI master begins a write operation to transmit
 ## HW and SW configuration
 * **Hardware configuration**
 
-    - This example runs on the DA14592 Bluetooth Smart SoC devices.
-    - The DA14592 Pro Development kit is needed for this example.
+    - This example runs on the DA1459x Bluetooth Smart SoC devices.
+    - The DA1459x Pro Development kit is needed for this example.
     - Connect the Development kit to the host computer.
     - Make sure the right jumpers are placed on J15 and J16.
 
@@ -51,7 +51,7 @@ Upon pressing the K1 button, the SPI master begins a write operation to transmit
     '_____________'
 
 * **Software configuration**
-  - e²Studio 2023-10  or greater.
+  - e²Studio 2025-01  or greater.
   - SDK 10.1.2.x
   - **SEGGER J-Link** tools should be downloaded and installed.
 

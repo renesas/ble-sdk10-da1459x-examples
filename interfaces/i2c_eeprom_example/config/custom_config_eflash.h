@@ -5,7 +5,7 @@
  *
  * @brief Board Support Package. User Configuration file for cached eFLASH mode.
  *
- * Copyright (c) 2023 Renesas Electronics Corporation and/or its affiliates
+ * Copyright (c) 2025 Renesas Electronics Corporation and/or its affiliates
  * The MIT License (MIT)
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy

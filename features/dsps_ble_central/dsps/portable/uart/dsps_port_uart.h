@@ -5,9 +5,9 @@
  *
  * @brief DSPS port UART
  *
- * Copyright (C) 2023. Dialog Semiconductor Ltd, unpublished work. This computer
+ * Copyright (C) 2025. Renesas Electronics Corporation and/or its affiliates Ltd, unpublished work. This computer
  * program includes Confidential, Proprietary Information and is a Trade Secret of
- * Dialog Semiconductor Ltd.  All use, disclosure, and/or reproduction is prohibited
+ * Renesas Electronics Corporation and/or its affiliates Ltd.  All use, disclosure, and/or reproduction is prohibited
  * unless authorized in writing. All Rights Reserved.
  *
  ****************************************************************************************

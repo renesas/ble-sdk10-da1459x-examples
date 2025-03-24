@@ -1,6 +1,6 @@
 # CMSIS NN Demonstration Example
 
-This example runs the ARM CMSIS NN library on the DA1469x family of devices. Four of the tests from the CMSIS library have been extracted and used as a sanity check. 
+This example runs the ARM CMSIS NN library on the DA1459x family of devices. Four of the tests from the CMSIS library have been extracted and used as a sanity check. 
 
 ## HW and SW Configuration
 
