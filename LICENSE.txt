@@ -1,5 +1,5 @@
 # The MIT License (MIT)
-# Copyright (c) 2024 Dialog Semiconductor
+# Copyright (c) 2025 Renesas Electronics Corporation and/or its affiliates
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal

@@ -26,8 +26,10 @@ The following file structure will be created:
 
 The template contains build configurations for executing it from RAM or eFLASH. 
 
-- `DA1459X-00-Debug_eFLASH`.    The project is built to  run from eFLASH. The executable is built with debug (-Og) information.
-- `DA1469X-00-Debug_RAM`.       The project is built to run from RAM.    The executable is built with debug (-Og) information.
-- `DA1459X-00-Release_eFLASH`.  The project is built to run from eFLASH. The executable is built with no debug information and size optimization (-Os).
+- `DA14592-00-Debug_eFLASH`.    The project is built to  run from eFLASH. The executable is built with debug (-Og) information.
+- `DA14592-00-Release_eFLASH`.  The project is built to run from eFLASH. The executable is built with no debug information and size optimization (-Os).
+- `DA14594-00-Debug_eFLASH`.    The project is built to  run from eFLASH. The executable is built with debug (-Og) information.
+- `DA14594-00-Release_eFLASH`.  The project is built to run from eFLASH. The executable is built with no debug information and size optimization (-Os).
+
 
 Note: By default serial output information is printed on the console. To disable printing set the following flag to (0): DBG_SERIAL_CONSOLE

@@ -5,7 +5,7 @@
  *
  * @brief Configuration of devices connected to board data structures
  *
- * Copyright (C) 2017-2023 Renesas Electronics Corporation and/or its affiliates
+ * Copyright (C) 2017-2025 Renesas Electronics Corporation and/or its affiliates
  * The MIT License (MIT)
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy

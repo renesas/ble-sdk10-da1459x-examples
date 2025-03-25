@@ -12,8 +12,9 @@ This application demonstrates using the SPI adapter concept. The sample code mak
   - A DA14592 Pro DevKit is needed for this example.
   - DAC Click boarch with MCP4921.
 - **Software Configurations**
-  - Download the latest SDK version
-  - Downlaod latest version of e2studio.
+  - 
+  -  the latest SDK version
+  - Download latest version of e2studio.
 
 ## How to run the example
 

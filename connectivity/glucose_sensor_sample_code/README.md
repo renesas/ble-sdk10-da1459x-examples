@@ -256,19 +256,19 @@ The Glucose Service database containing the various patient records should be ha
            for (;;) {
                ...
                if (notif & RACP_REPORT_RECORDS_NOTIF) {
-               	/* The dabase will notify the records entries that match the operator and 
+               	/* The database will notify the records entries that match the operator and 
                	   filter type criteria. The status will be indicated before exiting. */
                	app_db_report_records_handle();
                }
                
               if (notif & RACP_DELETE_RECORDS_NOTIF) {
-              		/* The dabase will delete the records entries that match the operator and 
+              		/* The database will delete the records entries that match the operator and 
                  	filter type criteria. The status will be indicated before exiting. */
                	app_db_delete_records_handle();
                }
            
               if (notif & RACP_REPORT_NUM_NOTIF) {
-                 /* The dabase will calculate the number of records entries that match the
+                 /* The database will calculate the number of records entries that match the
                  operator and filter type criteria. */
                  app_db_report_num_of_records_handle();
                }

@@ -47,7 +47,7 @@
    * - Basic math Functions
    *
    * The library has separate functions for operating on different weight and activation data
-   * types including 8-bit integers (q7_t) and 16-bit integers (q15_t). The descrition of the
+   * types including 8-bit integers (q7_t) and 16-bit integers (q15_t). The description of the
    * kernels are included in the function description. The implementation details are also
    * described in this paper [1].
    *
@@ -92,7 +92,7 @@
    * - ARM_MATH_BIG_ENDIAN:
    *
    * Define macro ARM_MATH_BIG_ENDIAN to build the library for big endian targets. This is supported only for the legacy
-   * functions i.e, functions targetted at TensorFlow Lite do not support big endianness. By default library builds for
+   * functions i.e, functions targeted at TensorFlow Lite do not support big endianness. By default library builds for
    * little endian targets.
    *
    * - ARM_NN_TRUNCATE:
@@ -303,7 +303,7 @@ int32_t arm_convolve_wrapper_s16_get_buffer_size(const cmsis_nn_conv_params *con
  *
  * @details
  *    1. Supported framework: TensorFlow Lite micro
- *    2. q7 is used as data type eventhough it is s8 data. It is done so to be consistent with existing APIs.
+ *    2. q7 is used as data type even though it is s8 data. It is done so to be consistent with existing APIs.
  *    3. Additional memory is required for optimization. Refer to argument 'ctx' for details.
  *
  */
@@ -353,7 +353,7 @@ int32_t arm_convolve_s8_get_buffer_size(const cmsis_nn_dims *input_dims, const c
  *
  * @details
  *    1. Supported framework: TensorFlow Lite micro
- *    2. q7/q15 is used as data type eventhough it is s8/s16 data. It is done so to be consistent with existing APIs.
+ *    2. q7/q15 is used as data type even though it is s8/s16 data. It is done so to be consistent with existing APIs.
  *    3. Additional memory is required for optimization. Refer to argument 'ctx' for details.
  *
  */
@@ -392,7 +392,7 @@ arm_status arm_convolve_s16(const cmsis_nn_context *ctx,
  *
  * @details
  *    1. Supported framework: TensorFlow Lite micro
- *    2. q7/q15 is used as data type eventhough it is s8/s16 data. It is done so to be consistent with existing APIs.
+ *    2. q7/q15 is used as data type even though it is s8/s16 data. It is done so to be consistent with existing APIs.
  *    3. Additional memory is required for optimization. Refer to argument 'ctx' for details.
  *    4. Implementation supports kernel volumes (filter width * filter height * input channels) < 512.
  *
@@ -570,7 +570,7 @@ arm_status arm_convolve_HWC_q15_basic(const q15_t *Im_in,
  * <code>ARM_MATH_SIZE_MISMATCH</code> or <code>ARM_MATH_SUCCESS</code> based on the outcome of size checking.
  *
  * This function is the version with full list of optimization tricks, but with
- * some contraints:
+ * some constraints:
  *   ch_im_in is multiple of 4
  *   ch_im_out is multiple of 2
  */
@@ -616,7 +616,7 @@ arm_status arm_convolve_HWC_q7_fast(const q7_t *Im_in,
  * <code>ARM_MATH_SIZE_MISMATCH</code> or <code>ARM_MATH_SUCCESS</code> based on the outcome of size checking.
  *
  * This function is the version with full list of optimization tricks, but with
- * some contraints:
+ * some constraints:
  *   ch_im_in is multiple of 4
  *   ch_im_out is multiple of 2
  */
@@ -673,7 +673,7 @@ arm_status arm_convolve_HWC_q7_fast_nonsquare(const q7_t *Im_in,
  * second half of MobileNets after depthwise separable convolution.
  *
  * This function is the version with full list of optimization tricks, but with
- * some contraints:
+ * some constraints:
  *   ch_im_in is multiple of 4
  *   ch_im_out is multiple of 2
  */
@@ -871,7 +871,7 @@ arm_status arm_convolve_HWC_q7_RGB(const q7_t *Im_in,
  * <code>ARM_MATH_SIZE_MISMATCH</code> or <code>ARM_MATH_SUCCESS</code> based on the outcome of size checking.
  *
  * This function is the version with full list of optimization tricks, but with
- * some contraints:
+ * some constraints:
  *   ch_im_in is multiple of 2
  *   ch_im_out is multiple of 2
  *   dim_im_out is a multiple of 2
@@ -930,7 +930,7 @@ arm_status arm_convolve_HWC_q15_fast(const q15_t *Im_in,
  *
  * ch_im_in is multiple of 2
  *
- * ch_im_out is multipe of 2
+ * ch_im_out is multiple of 2
  *
  */
 
@@ -976,7 +976,7 @@ arm_status arm_convolve_HWC_q15_fast_nonsquare(const q15_t *Im_in,
  * <code>ARM_MATH_SIZE_MISMATCH</code> or <code>ARM_MATH_SUCCESS</code> based on the outcome of size checking.
  *
  * This function is the version with full list of optimization tricks, but with
- * some contraints:
+ * some constraints:
  *   ch_im_in is multiple of 2
  *   ch_im_out is multiple of 2
  */
@@ -1023,7 +1023,7 @@ arm_status arm_depthwise_separable_conv_HWC_q7(const q7_t *Im_in,
  * <code>ARM_MATH_SIZE_MISMATCH</code> or <code>ARM_MATH_SUCCESS</code> based on the outcome of size checking.
  *
  * This function is the version with full list of optimization tricks, but with
- * some contraints:
+ * some constraints:
  *   ch_im_in is multiple of 2
  *   ch_im_out is multiple of 2
  */
@@ -1080,7 +1080,7 @@ arm_status arm_depthwise_separable_conv_HWC_q7_nonsquare(const q7_t *Im_in,
  *        -# arm_depthwise_conv_s8()
  *        -# arm_depthwise_conv_3x3_s8() - Cortex-M CPUs with DSP extension only
  *        -# arm_depthwise_conv_s8_opt()
- *    - q7 is used as data type eventhough it is s8 data. It is done so to be consistent with existing APIs.
+ *    - q7 is used as data type event hough it is s8 data. It is done so to be consistent with existing APIs.
  *    - Check details of arm_depthwise_conv_s8_opt() for potential data that can be accessed outside of the
  * boundary.
  */
@@ -1143,7 +1143,7 @@ int32_t arm_depthwise_conv_wrapper_s8_get_buffer_size(const cmsis_nn_dw_conv_par
  *
  * @details
  *    - Supported framework: TensorFlow Lite
- *    - q7 is used as data type eventhough it is s8 data. It is done so to be consistent with existing APIs.
+ *    - q7 is used as data type even though it is s8 data. It is done so to be consistent with existing APIs.
  */
 arm_status arm_depthwise_conv_s8(const cmsis_nn_context *ctx,
                                  const cmsis_nn_dw_conv_params *dw_conv_params,
@@ -1206,8 +1206,8 @@ arm_status arm_depthwise_conv_3x3_s8(const cmsis_nn_context *ctx,
  *    - Supported framework: TensorFlow Lite
  *    - The following constrains on the arguments apply
  *        -# Number of input channel equals number of output channels or ch_mult equals 1
- *    - q7 is used as data type eventhough it is s8 data. It is done so to be consistent with existing APIs.
- *    - Reccomended when number of channels is 4 or greater.
+ *    - q7 is used as data type event hough it is s8 data. It is done so to be consistent with existing APIs.
+ *    - Recommended when number of channels is 4 or greater.
  *
  */
 arm_status arm_depthwise_conv_s8_opt(const cmsis_nn_context *ctx,
@@ -1307,7 +1307,7 @@ arm_status arm_fully_connected_q7(const q7_t *pV,
  *
  * @details
  *    - Supported framework: TensorFlow Lite
- *    - q7 is used as data type eventhough it is s8 data. It is done so to be consistent with existing APIs.
+ *    - q7 is used as data type even though it is s8 data. It is done so to be consistent with existing APIs.
  */
 arm_status arm_fully_connected_s8(const cmsis_nn_context *ctx,
                                   const cmsis_nn_fc_params *fc_params,
@@ -1363,7 +1363,7 @@ int32_t arm_fully_connected_s8_get_buffer_size(const cmsis_nn_dims *filter_dims)
  *
  * @details
  *    - Supported framework: TensorFlow Lite
- *    - q15 is used as data type eventhough it is s16 data. It is done so to be consistent with existing APIs.
+ *    - q15 is used as data type even though it is s16 data. It is done so to be consistent with existing APIs.
  */
 arm_status arm_fully_connected_s16(const cmsis_nn_context *ctx,
                                    const cmsis_nn_fc_params *fc_params,
@@ -2018,7 +2018,7 @@ void arm_softmax_u8(const uint8_t *input,
  * @param[in]     dilation_x Dilation along width. Not used and intended for future enhancement.
  * @param[in]     dilation_y Dilation along height. Not used and intended for future enhancement.
  * @param[in]     bias       Pointer to optional bias values. If no bias is
- *                           availble, NULL is expected
+ *                           available, NULL is expected
  * @param[in]     input_offset  Input tensor zero offset
  * @param[in]     filter_offset Kernel tensor zero offset
  * @param[in]     output_offset Output tensor zero offset
@@ -2286,7 +2286,7 @@ void arm_concatenation_s8_w(const int8_t *input,
  *
  * @details
  *    1. Supported framework: TensorFlow Lite micro
- *    2. q7 is used as data type eventhough it is s8 data. It is done so to be consistent with existing APIs.
+ *    2. q7 is used as data type even though it is s8 data. It is done so to be consistent with existing APIs.
  *
  */
 arm_status arm_svdf_s8(const cmsis_nn_context *input_ctx,

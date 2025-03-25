@@ -4,7 +4,7 @@ I2C Adapter Demonstration Example
 ## Overview
 
 This example implements a simple read/write communication scenario over 
-the I2C interface using the I2C adapter layer. For demonstration, MirkoE Temp&Hum 17 ClickBoard with HS3001 is used.
+the I2C interface using the I2C adapter layer. For demonstration, MikroE Temp&Hum 17 ClickBoard with HS3001 is used.
 
 The I2C interface is configured in the master role while HS3001 is used as an I2C slave.
 
@@ -48,7 +48,7 @@ Temperature and humidity data is printed on UART.
     |____________|                                     
 
 * **Software configuration**
-  - e²Studio 2023-10  or greater.
+  - e2Studio 2025-10  or greater.
   - SDK 10.1.2.x
   - **SEGGER J-Link** tools should be downloaded and installed.
 

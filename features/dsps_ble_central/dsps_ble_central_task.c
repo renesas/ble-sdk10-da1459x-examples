@@ -7,9 +7,9 @@
  *        It reads data from a serial port, sends data to DSPS server and finally writes
  *        received data to a  serial port.
  *
- * Copyright (C) 2023. Dialog Semiconductor, unpublished work. This computer
+ * Copyright (C) 2025. Renesas Electronics Corporation and/or its affiliates, unpublished work. This computer
  * program includes Confidential, Proprietary Information and is a Trade Secret of
- * Dialog Semiconductor.  All use, disclosure, and/or reproduction is prohibited
+ * Renesas Electronics Corporation and/or its affiliates.  All use, disclosure, and/or reproduction is prohibited
  * unless authorized in writing. All Rights Reserved.
  *
  ****************************************************************************************
@@ -453,7 +453,7 @@ static void handle_evt_gap_adv_report(ble_evt_gap_adv_report_t *evt)
 
                                 OPT_MEMCPY(&peer_addr, &evt->address, sizeof(evt->address));
 
-                                /* Stop scanner. We will attemp to connect to the peer device from there. */
+                                /* Stop scanner. We will attempt to connect to the peer device from there. */
                                 ble_gap_scan_stop();
                                 break;
                         }

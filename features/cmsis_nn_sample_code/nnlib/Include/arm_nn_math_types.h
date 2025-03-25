@@ -31,7 +31,7 @@
 
 #define _ARM_NN_MATH_TYPES_H_
 
-/* DSP inlcude for enum arm_status. */
+/* DSP include for enum arm_status. */
 #include "arm_math_types.h"
 
 #ifdef __cplusplus
@@ -59,7 +59,7 @@ extern "C" {
 #error Unknown compiler
 #endif
 
-/* Included for instrinsics definitions */
+/* Included for intrinsics definitions */
 #if defined(_MSC_VER)
 #include <stdint.h>
 #ifndef __STATIC_FORCEINLINE

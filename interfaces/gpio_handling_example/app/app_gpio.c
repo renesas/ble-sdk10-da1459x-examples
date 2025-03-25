@@ -5,9 +5,9 @@
  *
  * @brief Basic framework to handle I/O pins outside adapter context.
  *
- * Copyright (C) 2017-2023 Dialog Semiconductor.
+ * Copyright (C) 2017-2025 Renesas Electronics Corporation and/or its affiliates.
  * This computer program includes Confidential, Proprietary Information
- * of Dialog Semiconductor. All Rights Reserved.
+ * of Renesas Electronics Corporation and/or its affiliates. All Rights Reserved.
  *
  ****************************************************************************************
  */

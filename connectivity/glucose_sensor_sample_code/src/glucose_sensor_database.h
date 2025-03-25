@@ -5,7 +5,7 @@
  *
  * @brief Glucose sensor database simple framework
  *
- * Copyright (C) 2015-2023 Renesas Electronics Corporation and/or its affiliates.
+ * Copyright (C) 2015-2025 Renesas Electronics Corporation and/or its affiliates.
  * All rights reserved. Confidential Information.
  *
  * This software ("Software") is supplied by Renesas Electronics Corporation and/or its
@@ -77,7 +77,7 @@ typedef struct {
  * other means except in the case of an unrecoverable loss of time.
  */
 #ifndef APP_DB_BASE_TIME_YEAR
-#define APP_DB_BASE_TIME_YEAR      2023
+#define APP_DB_BASE_TIME_YEAR      2025
 #endif
 
 #ifndef APP_DB_BASE_TIME_MONTH

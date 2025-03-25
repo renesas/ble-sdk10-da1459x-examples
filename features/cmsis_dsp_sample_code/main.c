@@ -5,7 +5,7 @@
  *
  * @brief FreeRTOS template application with retarget and CMSIS DSP library demonstration
  *
- * Copyright (C) 2015-2024 Renesas Electronics Corporation and/or its affiliates
+ * Copyright (C) 2015-2025 Renesas Electronics Corporation and/or its affiliates
  * The MIT License (MIT)
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy

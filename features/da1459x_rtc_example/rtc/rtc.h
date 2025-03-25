@@ -5,7 +5,7 @@
  *
  * @brief RCT block demonstration
  *
-* Copyright (C) 2020-2023 Renesas Electronics Corporation and/or its affiliates.
+* Copyright (C) 2020-2025 Renesas Electronics Corporation and/or its affiliates.
  * All rights reserved. Confidential Information.
  *
  * This software ("Software") is supplied by Renesas Electronics Corporation and/or its
@@ -77,7 +77,7 @@ typedef enum {
 #define RTC_MONTH               6
 #define RTC_MONTH_DAY          26
 #define RTC_WEEK_DAY            3
-#define RTC_YEAR             2023
+#define RTC_YEAR             2025
 
 /*********************************************************************
  *

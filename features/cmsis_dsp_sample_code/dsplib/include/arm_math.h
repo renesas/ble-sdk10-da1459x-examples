@@ -106,7 +106,7 @@
    * Pre-processor Macros
    * ------------
    *
-   * Each library project have differant pre-processor macros.
+   * Each library project have different pre-processor macros.
    *
    * - UNALIGNED_SUPPORT_DISABLE:
    *

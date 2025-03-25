@@ -6,7 +6,7 @@
  * @brief This file should contain the routines required to port the PCA9956B LED driver
  *        provided in knob_G_click_led files.
  *
- * Copyright (C) 2015-2023 Renesas Electronics Corporation and/or its affiliates.
+ * Copyright (C) 2015-2025 Renesas Electronics Corporation and/or its affiliates.
  * All rights reserved. Confidential Information.
  *
  * This software ("Software") is supplied by Renesas Electronics Corporation and/or its

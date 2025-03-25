@@ -1,0 +1,11 @@
+repos:
+  - repo: ssh://git@bitbucket.diasemi.com:7999/lpc_cs/github_ci_header_checker.git
+    rev: 1.0.2
+    hooks:
+      - id: header-checker
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.6
+    hooks:
+      - id: codespell
+        args:
+          - --quiet-level=2
