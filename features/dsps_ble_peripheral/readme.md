@@ -1,3 +1,14 @@
+---
+name: dsps_ble_peripheral
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - Serial Port Service
+    - GAP advertiser
+description: |
+    Emulated serial cable communication (advertiser side).
+---
+
 Renesas Serial Port Service 
 ==================
 

@@ -1,3 +1,15 @@
+---
+name: i2c_example
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - I2C
+    - sensor
+description: |
+    This example implements a simple read and write communication scenario over
+    the I2C interface with a MikroE Temp&Hum 17 ClickBoard.
+---
+
 I2C Adapter Demonstration Example
 =================================
 

@@ -1,3 +1,14 @@
+---
+name: da1459x_rtc_example
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - RTC
+    - alarm timer
+description: |
+    Showcase of real-time clock timer events.
+---
+
 FreeRTOS RTC demo application
 =============================
 

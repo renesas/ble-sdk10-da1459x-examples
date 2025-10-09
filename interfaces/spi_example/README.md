@@ -1,3 +1,14 @@
+---
+name: spi_example
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - SPI
+    - adapter
+description: |
+    This application shows how to use the SPI adapter API.
+---
+
 SPI Adapter Sample Code
 =======================
 

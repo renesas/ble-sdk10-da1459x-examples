@@ -1,3 +1,17 @@
+---
+name: armv8_fault_handling_example
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - ARMv8
+    - M33
+    - CLI
+description: |
+    Example showcasing how to configure custom exception handlers. Includes a
+    basic CLI interface for manually triggering various kinds of fault
+    conditions.
+---
+
 # ARMv8 Fault Handling Demonstration Example
 
 ## Example Description

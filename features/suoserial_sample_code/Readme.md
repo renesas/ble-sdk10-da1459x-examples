@@ -1,3 +1,15 @@
+---
+name: suoserial_sample_code
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - SUOTA
+    - UART
+    - CLI
+description: |
+    This example demonstrates Software Update over UART, namely SUOSERIAL.
+---
+
 SUOSERIAL Demonstration Example{#suouart}
 ======================
 
@@ -23,9 +35,10 @@ This example demonstrates Software Update over UART, namely `SUOSERIAL`. The app
 
 - Connect the target device to your host PC via USB1. The mentioned port is used to power the device and to support serial and JTAG interfaces. These two interfaces can be used both for flashing and debugging purposes.
 
-- This example employs the `SUOTA` flash partition so that there is room for storing the current and firmware that will be stored over UART. As such, it's imperative that the flash memory be erased before flashing the target application. This is imperative every time a new flash partition is loaded.
-
 - Compile the source code (either in Release or Debug mode) and flash it into the chip. Please note that the debug flavor should be used merely for debugging purposes since it should increase the generated binary file, significantly. In addition, the source code is built to work with the embedded flash. Working with external flash memory devices is out of the scope of this demonstration example.  
+
+  > [!IMPORTANT]  
+  > This example employs the `SUOTA` flash partition so that there is room for storing the current and firmware that will be stored over UART. As such, it's imperative that the flash memory be erased before flashing the target application. This is imperative every time a new flash partition is loaded.
 
 - Once the application image is flashed, press the RESET button on the daughter board to start executing the application. 
 

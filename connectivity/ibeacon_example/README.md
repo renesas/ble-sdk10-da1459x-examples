@@ -1,3 +1,14 @@
+---
+# name: ibeacon_example
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - BLE
+    - advertising
+description: |
+    This application demonstrates a DA1459x device operating as an iBeacon,
+    advertising information according to the iBeacon standard.
+---
 
 # iBeacon
 

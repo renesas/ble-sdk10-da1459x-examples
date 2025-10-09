@@ -1,3 +1,14 @@
+---
+name: dsps_ble_central
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - Serial Port Service
+    - GAP central
+description: |
+    Emulated serial cable communication (scanner side).
+---
+
 Renesas Serial Port Service 
 ==================
 

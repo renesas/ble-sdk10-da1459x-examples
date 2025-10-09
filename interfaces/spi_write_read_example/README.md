@@ -1,3 +1,15 @@
+---
+name: spi_write_read_example
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - SPI
+    - adapter
+description: |
+    This example implements a simple write and read communication scenario over
+    the SPI interface with the SPI adapter layer using the LSM6DSL ClickBoard.
+---
+
 SPI Adapter Write Read Example
 ==============================
 

@@ -1,3 +1,14 @@
+---
+name: bare_metal_hello_world
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - watchdog
+    - bare-metal
+description: |
+    Hello world without the FreeRTOS scheduler running.
+---
+
 ## Bare Metal Retarget Demonstration Example
 
 This is a simple implementation of a basic retarget application that runs is bare metal (no OS) context.

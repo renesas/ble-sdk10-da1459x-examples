@@ -1,3 +1,14 @@
+---
+name: gpadc_adapter_example
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - ADC
+description: |
+    Application demonstrating using the general-purpose ADC peripheral with the
+    help of the GPADC adapter layer.
+---
+
 # Example Demonstrating the GPADC Adapter
 
 ## Overview

@@ -1,3 +1,17 @@
+---
+name: map_clocks_to_gpio
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - GPIO
+    - CLI
+    - pin control
+description: |
+    This sample code demonstrates mapping system clocks to GPIO, typically for
+    debugging purposes. The clocks that can be exported are XTAL32K, RC32K,
+    RCLP, XTAL32M, RC32M as well as DIVN.
+---
+
 # Mapping System Clocks To GPIO
 
 This sample code demonstrates mapping system clocks to GPIO, typically for debugging purposes. The clocks that can be exported are XTAL32K, RC32K, RCLP, XTAL32M, RC32M as well as DIVN. A system clock can be outputted in the following two ways. The first method involves mapping a system clock to any GPIO of interest whereas the second method allows mapping specific clocks to dedicated GPIO as follows:

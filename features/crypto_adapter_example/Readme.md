@@ -1,3 +1,16 @@
+---
+name: crypto_adapter_example
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - Cryptography
+    - AES
+    - HASH
+description: |
+    Sample code for using the hardware-accelerated crypto operations using the
+    crypto adapter API.
+---
+
 # Crypto Adapter Demonstration Example
 
 This sample code demonstrates using the crypto engine. The DA1459x family of devices incorporates a single crypto accelerator capable of performing AES and HASH cryptographic operations. Please note that these two modes can work complementary. Therefore, either AES or HASH cryptographic algorithms can be computed at a time. The crypto engine integrates a dedicated DMA engine and so no CPU intervention is required for cryptographic computations. One interesting feature of the crypto engine is the ability to process fragmented data. This means that data to be processed, namely input vectors, can be located at different locations in memory. This demonstration example exhibits two OS tasks; one task demonstrates performing AES CBC encryption/decryption algorithms and another task demonstrates  running SHA-256 hashing algorithms. Each of the two tasks should demonstrate the `fragmented` functionality by setting the the following configuration macros in `crypto_task.c`:

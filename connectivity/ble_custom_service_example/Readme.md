@@ -1,3 +1,16 @@
+---
+name: ble_custom_service_example
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - BLE
+    - attribute
+    - service
+description: |
+    Example showcasing two arbitrary service characteristic attributes using
+    the custom Bluetooth database.
+---
+
 # Bluetooth Custom Service Framework
 
 ## Example Description

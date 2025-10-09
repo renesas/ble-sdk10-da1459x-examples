@@ -1,3 +1,15 @@
+---
+name: quadrature_decoder_sample_code
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - QDEC
+description: |
+    This sample code demonstrates using the quadrature decoder peripheral
+    supported by the DA1459x family of devices. The decoder can decode three
+    pairs of axes as illustrated below reporting step count and direction.
+---
+
 # Quadrature Decoder (QDEC) Sample Code
 
 This sample code demonstrates using the quadrature decoder peripheral supported by the DA1459x family of devices. The decoder can decode three pairs of axes as illustrated below reporting step count and direction. The decoder can forward a triggering signal to the PDC block upon movement detection on any of the three axes. Thus, exiting the device from the sleep state.

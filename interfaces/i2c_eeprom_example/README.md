@@ -1,3 +1,15 @@
+---
+name: i2c_eeprom_example
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - I2C
+    - EEPROM
+description: |
+    This example implements a simple read and write communication scenario over
+    the I2C interface with a MirkoE EEPROM Click ClickBoard.
+---
+
 I2C EEPROM example application.
 =========================================
 

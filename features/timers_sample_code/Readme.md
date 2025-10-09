@@ -1,3 +1,15 @@
+---
+name: timer1_demonstration_sample_code
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - PWM
+    - timer
+description: |
+    This example uses the first HW timer block instance (HW_TIMER) to generate
+    PWM pulses of 1kHz are on P0.12.
+---
+
 # HW Timers Demonstration Example
 
 This application demonstrates using HW timers. The DA1459x family of devices incorporates four identical HW timer blocks. Each block consists of a counter and PWM sub-block which can operate independently. Capture events are also available for all four instances. In this demonstration, the first block instance (HW_TIMER) is configured so that PWM pulses of 1kHz are generated on P0.12. The PWM port can be changed via `APP_TIMER_PWM_PORT` and `APP_TIMER_PWM_PIN`. Please note that the selected pin can operate even when the device has entered the extended sleep state. Input capture events are also demonstrated using P0.10. The latter can be changed via `APP_TIMER_CAPTURE_PORT`.  The counter block is configured in down counting mode which in turn should blink LED1 @10Hz. Counter's expiration frequency can be adjusted via `APP_TIMER_COUNTER_RELOAD_HZ`.   

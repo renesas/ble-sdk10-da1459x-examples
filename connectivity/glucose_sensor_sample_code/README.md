@@ -1,3 +1,16 @@
+---
+name: glucose_sensor_sample_code
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - BLE
+    - GLS
+    - GLP
+description: |
+    Bluetooth service demonstrating Bluetooth Glucose Service (GLS) and Glucose
+    Profile (GLP).
+---
+
 # Glucose Service (GLS) Sample Code
 
 This sample code provides support for the Bluetooth Glucose Service (GLS) and demonstrates a Glucose Profile (GLP) demonstration example. The following screenshot depicts the file structure of the sample code:

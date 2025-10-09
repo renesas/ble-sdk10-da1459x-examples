@@ -5,7 +5,7 @@
  *
  * @brief Crypto engine demonstration example
  *
- * Copyright (C) 2015-2023 Renesas Electronics Corporation and/or its affiliates
+ * Copyright (C) 2015-2024 Renesas Electronics Corporation and/or its affiliates
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -157,7 +157,6 @@ OS_TASK_FUNCTION(prvCRYPTO_AES, pvParameters)
 #if CRYPTO_AES_SECURE_KEY
         CRYPTO_AES_DEVICE->engine.aes.keys_addr = crypto_aes_secure_key_read(0);
 #endif
-        CRYPTO_AES_DEVICE->engine.aes.callback = ad_crypto_aes_cb;
         CRYPTO_AES_DEVICE->engine.aes.output_data_addr = (uint32_t)crypto_aes_out;
         CRYPTO_AES_DEVICE->engine.aes.input_data_addr =
                         CRYPTO_AES_FRAGMENTED ? (uint32_t)crypto_aes_frag_vector_1 :
@@ -209,6 +208,7 @@ OS_TASK_FUNCTION(prvCRYPTO_AES, pvParameters)
          * 'crypto_aes_out'. Now, it's time to perform the opposite operation so encrypted data
          * are translated back to raw/plain data. */
         CRYPTO_AES_DEVICE->engine.aes.operation = HW_AES_OPERATION_DECRYPT;
+        CRYPTO_AES_DEVICE->engine.aes.callback = ad_crypto_aes_cb;
         /* It's OK for the source and destination buffers to match! */
         CRYPTO_AES_DEVICE->engine.aes.input_data_addr = (uint32_t)crypto_aes_out;
         CRYPTO_AES_DEVICE->engine.aes.input_data_len = sizeof(crypto_aes_out);

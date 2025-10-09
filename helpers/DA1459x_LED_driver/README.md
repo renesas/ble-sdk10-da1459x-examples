@@ -1,3 +1,14 @@
+---
+name: blinky
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - LED
+    - sleep
+description: |
+    Periodically blink LED1.
+---
+
 Blinky application
 ===============================
 

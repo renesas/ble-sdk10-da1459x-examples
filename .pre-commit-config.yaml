@@ -1,6 +1,6 @@
 repos:
   - repo: ssh://git@bitbucket.diasemi.com:7999/lpc_cs/github_ci_header_checker.git
-    rev: 1.0.2
+    rev: 1.0.5
     hooks:
       - id: header-checker
   - repo: https://github.com/codespell-project/codespell
@@ -9,3 +9,8 @@ repos:
       - id: codespell
         args: ["--quiet-level=2"]
         args: [-I,  .codespellignore]
+  - repo: https://github.com/renesas/auto-example-table
+    rev: v0.4.2
+    hooks:
+      - id: auto-example-table
+        args: [README.md]

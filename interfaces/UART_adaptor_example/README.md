@@ -1,3 +1,15 @@
+---
+name: UART
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - UART
+    - adapter
+description: |
+    This application demonstrates the use of 2 UARTs through the adapters
+    abstraction layer.
+---
+
 Example demonstrating the use of UART Adapter abstraction layer
 ===============================================================
 

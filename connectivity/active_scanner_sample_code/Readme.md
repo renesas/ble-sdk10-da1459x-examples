@@ -1,3 +1,15 @@
+---
+name: active_scanner_sample_code
+sdk: 10.1.6.108
+boards: [da14592]
+description: |
+    Example demonstrating setting up the Bluetooth controller in central role.
+keywords:
+    - Central
+    - BLE
+    - CLI
+---
+
 # Active Scanner Demonstration Example
 
 This example demonstrating setting up the Bluetooth controller in central role. Active scanning can be initiated through the serial console. Once the active scanning session times out, scanning is allowed to be re-initiated. If logging is enabled (enabled by default) each device scanned along with its advertising data are displayed on the serial console.

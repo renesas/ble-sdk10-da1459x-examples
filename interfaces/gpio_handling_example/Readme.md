@@ -1,3 +1,16 @@
+---
+name: gpio_handling_example
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - GPIO
+    - PD_COM
+    - sleep
+description: |
+    This sample code demonstrates using GPIO pins that are handled directly by
+    developers (outside adapter context).
+---
+
 # GPIO Handling Demonstration Example
 
 This sample code demonstrates using GPIO pins that are handled directly by developers (outside adapter context). For this demonstration LED1, mounted on the daughterboard, is toggled @1Hz. The toggling period can be adjusted via `APP_LED1_TOGGLE_MS`. The sample code introduces two basic approaches namely `static` and `dynamic`. Switching between the mentioned two modes is achieved via `APP_GPIO_DYNAMIC_MODE`. Following is a short description for the mentioned two approaches:

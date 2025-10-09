@@ -1,3 +1,19 @@
+---
+name: cmsis_nn_sample_code
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - ARM
+    - CMSIS
+    - NN
+    - neural network
+description: |
+    Four of the ARM CMSIS NN library's tests
+    (fully_connected_int16_arm_fully_connected_s16,
+    fully_connected_int16_big_arm_fully_connected_s16,
+    int16xint8_arm_convolve_fast_s16, requantize_s64_arm_convolve_fast_s16).
+---
+
 # CMSIS NN Demonstration Example
 
 This example runs the ARM CMSIS NN library on the DA1459x family of devices. Four of the tests from the CMSIS library have been extracted and used as a sanity check. 

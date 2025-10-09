@@ -1,3 +1,15 @@
+---
+name: cmsis_dsp_sample_code
+sdk: 10.1.6.108
+boards: [da14592]
+keywords:
+    - ARM
+    - CMSIS
+    - DSP
+description: |
+    The ARM CMSIS DSP library's arm_sin_cos_example.
+---
+
 # CMSIS DSP Demonstration Example
 
 This example runs the ARM CMSIS DSP library on the DA1459x family of devices. One of the example from the CMSIS library has been extracted and used as a sanity check. 
