@@ -4,7 +4,7 @@
 		"preparer_type": "Gitrepo",
 		"repo_url": "ssh://git@bitbucket.global.renesas.com:7999/lpc_cs/cs_source_sdk10_1.git",
 		"destination_path": "../cs_source_sdk10_1",
-		"branch": "10.1.2.86"
+		"branch": "10.1.4.104"
 	}
   },
   {
