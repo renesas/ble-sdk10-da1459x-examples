@@ -119,7 +119,7 @@ __STATIC_INLINE uint64_t __sys_ticks_timestamp(void)
  *
  * \param[in] state  Define the start or end of a timestamp operation.
  *
- * \return  0 if \p state is SYS_TIMESTAMP_START; Othewise, the time has elapsed between
+ * \return  0 if \p state is SYS_TIMESTAMP_START; Otherwise, the time has elapsed between
  *          SYS_TIMESTAMP_START and SYS_TIMESTAMP_STOP in us.
  *
  * \note The routine is valid only when an OS is used.

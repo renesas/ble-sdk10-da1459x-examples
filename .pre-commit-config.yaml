@@ -7,5 +7,5 @@ repos:
     rev: v2.2.6
     hooks:
       - id: codespell
-        args:
-          - --quiet-level=2
+        args: ["--quiet-level=2"]
+        args: [-I,  .codespellignore]

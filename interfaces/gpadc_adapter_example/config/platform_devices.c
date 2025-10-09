@@ -38,7 +38,7 @@
 #if dg_configGPADC_DMA_SUPPORT
 gpadc_dma_cfg die_temp_dma_cfg = {
         .channel= HW_DMA_CHANNEL_0, // Preferably use an even channel number to keep consistency with peripheral blocks that require a pair or RX/TX DMA channels.
-        .circular = false,          // The selected DMA channel will be disabled automatically by the GPADC block once the requested bytes are transfered.
+        .circular = false,          // The selected DMA channel will be disabled automatically by the GPADC block once the requested bytes are transferred.
         .prio = HW_DMA_PRIO_0,      // Give it the lowest priority
         .irq_nr_of_trans = 0        // A zero value should trigger a DMA interrupt once all the requested bytes are transferred.
 };
