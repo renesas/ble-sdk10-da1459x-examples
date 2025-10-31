@@ -5,7 +5,7 @@
  *
  * @brief BLE peripheral application
  *
- * Copyright (C) 2015-2023 Renesas Electronics Corporation and/or its affiliates
+ * Copyright (C) 2015-2024 Renesas Electronics Corporation and/or its affiliates
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -35,6 +35,7 @@
    #include "ad_uart.h"
 #endif
 #include "platform_devices.h"
+#include "hw_uart.h"
 
 
 /*
