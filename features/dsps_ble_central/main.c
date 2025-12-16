@@ -5,7 +5,7 @@
  *
  * @brief BLE central application
  *
- * Copyright (C) 2015-2023 Renesas Electronics Corporation and/or its affiliates
+ * Copyright (C) 2015-2024 Renesas Electronics Corporation and/or its affiliates
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -29,6 +29,7 @@
 
 #include "osal.h"
 #include "ad_ble.h"
+#include "hw_uart.h"
 #include "ble_mgr.h"
 #include "sys_clock_mgr.h"
 #include "sys_power_mgr.h"
