@@ -1,16 +1,11 @@
----
-# name: ibeacon_example
-sdk: 10.1.6.108
-boards: [da14592]
-keywords:
-    - BLE
-    - advertising
-description: |
-    This application demonstrates a DA1459x device operating as an iBeacon,
-    advertising information according to the iBeacon standard.
----
-
 # iBeacon
+
+![status: deprecated](https://img.shields.io/badge/deprecated-red)
+
+> [!WARNING]
+>
+> This example was deprecated as of SDK version 10.1.6.108.
+> It is no longer maintained and may not be compatible with current releases.
 
 ## Example description
 
